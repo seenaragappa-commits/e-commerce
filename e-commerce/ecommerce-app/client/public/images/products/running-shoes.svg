@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600" role="img" aria-label="Blue mesh running sneaker with chunky white cushioned midsole and orange accents, side view">
+  <title>Running Shoes</title>
+  <defs>
+    <filter id="sh-blur" x="-50%" y="-300%" width="200%" height="700%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <linearGradient id="sh-upper" x1="0" y1="0" x2="0.25" y2="1">
+      <stop offset="0" stop-color="#60A5FA"/>
+      <stop offset="0.5" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <pattern id="sh-mesh" width="6" height="6" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1.15" fill="#1E3A8A" opacity="0.28"/>
+    </pattern>
+    <linearGradient id="sh-heel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#1E3A8A"/>
+    </linearGradient>
+    <linearGradient id="sh-tongue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <linearGradient id="sh-mid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.55" stop-color="#F1F5F9"/>
+      <stop offset="1" stop-color="#CBD5E1"/>
+    </linearGradient>
+    <linearGradient id="sh-out" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#475569"/>
+      <stop offset="1" stop-color="#1E293B"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="308" cy="470" rx="212" ry="11" fill="#0F172A" opacity="0.14" filter="url(#sh-blur)"/>
+  <!-- collar lining (inside of shoe) -->
+  <path d="M118 266 C150 260 200 260 238 268 L238 300 L118 300 Z" fill="#1E293B"/>
+  <!-- tongue -->
+  <path d="M222 294 C220 268 226 250 240 243 C253 236 273 240 283 251 C291 261 297 277 303 294 Z" fill="url(#sh-tongue)"/>
+  <path d="M222 294 C220 268 226 250 240 243 C253 236 273 240 283 251 C291 261 297 277 303 294 Z" fill="url(#sh-mesh)"/>
+  <path d="M231 256 C237 247 253 241 269 244" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.45"/>
+  <rect x="246" y="246" width="16" height="7" rx="2.5" fill="#F97316" transform="rotate(12 254 249.5)"/>
+  <!-- heel pull tab -->
+  <path d="M104 284 C96 260 98 240 110 236 C122 232 130 246 128 268 Z" fill="#F97316"/>
+  <path d="M108 262 C106 252 108 245 113 243" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.45"/>
+  <!-- upper -->
+  <path d="M108 412 C96 380 92 330 100 292 C104 274 110 264 120 260 C150 258 168 284 194 286 C210 287 222 280 232 270 L250 262 C300 280 350 300 396 318 C440 332 486 344 506 362 C520 376 522 396 517 412 C514 418 508 422 500 422 L116 420 Z" fill="url(#sh-upper)"/>
+  <path d="M108 412 C96 380 92 330 100 292 C104 274 110 264 120 260 C150 258 168 284 194 286 C210 287 222 280 232 270 L250 262 C300 280 350 300 396 318 C440 332 486 344 506 362 C520 376 522 396 517 412 C514 418 508 422 500 422 L116 420 Z" fill="url(#sh-mesh)"/>
+  <!-- heel counter overlay -->
+  <path d="M108 412 C96 380 92 330 100 292 C103 280 108 271 116 265 C150 292 146 362 204 414 Z" fill="url(#sh-heel)"/>
+  <path d="M116 266 C150 292 146 362 204 414" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.35"/>
+  <!-- toe bumper -->
+  <path d="M466 344 C492 350 514 368 519 396 L518 414 L484 416 C490 392 484 364 466 344 Z" fill="#1D4ED8" opacity="0.6"/>
+  <!-- collar edge -->
+  <path d="M121 261 C150 259 168 284 194 286 C210 287 222 280 232 270" fill="none" stroke="#1E3A8A" stroke-width="5" stroke-linecap="round"/>
+  <!-- speed lines -->
+  <path d="M176 362 C250 354 330 362 436 384" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" opacity="0.92"/>
+  <path d="M196 380 C264 374 336 382 424 398" fill="none" stroke="#F97316" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- eyestay -->
+  <path d="M248 261 C300 279 350 299 400 318 L395 333 C346 314 298 295 245 277 Z" fill="#1D4ED8"/>
+  <path d="M250 263 C300 281 350 301 398 320" fill="none" stroke="#93C5FD" stroke-width="1.6" opacity="0.7"/>
+  <g fill="#0F172A" stroke="#DBEAFE" stroke-width="1.3">
+    <circle cx="262" cy="274" r="3"/>
+    <circle cx="290" cy="284.5" r="3"/>
+    <circle cx="318" cy="295" r="3"/>
+    <circle cx="346" cy="306" r="3"/>
+    <circle cx="374" cy="316.5" r="3"/>
+  </g>
+  <!-- laces -->
+  <g fill="none" stroke-linecap="round" stroke-width="5">
+    <g stroke="#94A3B8" transform="translate(0.8 1.4)">
+      <path d="M262 274 L274 259"/>
+      <path d="M290 284.5 L302 269.5"/>
+      <path d="M318 295 L330 280"/>
+      <path d="M346 306 L358 291"/>
+      <path d="M374 316.5 L386 301.5"/>
+    </g>
+    <g stroke="#FFFFFF">
+      <path d="M262 274 L274 259"/>
+      <path d="M290 284.5 L302 269.5"/>
+      <path d="M318 295 L330 280"/>
+      <path d="M346 306 L358 291"/>
+      <path d="M374 316.5 L386 301.5"/>
+    </g>
+  </g>
+  <!-- outsole -->
+  <path d="M104 424 C98 450 108 462 126 462 L420 462 C464 462 496 452 512 432 C518 424 514 414 504 416 L110 418 Z" fill="url(#sh-out)"/>
+  <!-- midsole -->
+  <path d="M106 448 C98 432 96 404 102 392 C108 384 130 382 160 384 C200 386 232 398 270 402 C330 408 400 406 450 400 C480 397 506 402 514 414 C520 426 508 434 494 437 C460 444 430 450 404 452 L128 452 C116 452 108 451 106 448 Z" fill="url(#sh-mid)"/>
+  <path d="M104 392 C110 386 130 385 160 387 C200 389 232 401 270 405 C330 411 400 409 450 403 C478 400 502 404 512 414" fill="none" stroke="#CBD5E1" stroke-width="2" opacity="0.8"/>
+  <path d="M112 426 C170 430 250 432 330 432 C390 432 440 428 480 423" fill="none" stroke="#CBD5E1" stroke-width="2"/>
+  <path d="M112 439 C150 442 200 443 240 443" fill="none" stroke="#F97316" stroke-width="4" stroke-linecap="round"/>
+  <!-- highlights -->
+  <path d="M104 300 C100 326 100 356 104 380" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.3"/>
+  <path d="M420 334 C452 340 482 350 500 366" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.35"/>
+</svg>

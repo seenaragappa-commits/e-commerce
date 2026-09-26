@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600" role="img" aria-label="Modern white LED desk lamp with articulated arm, warm light beam and a wireless charging base">
+  <title>LED Desk Lamp</title>
+  <defs>
+    <filter id="dl-blur" x="-50%" y="-300%" width="200%" height="700%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <filter id="dl-glow" x="-50%" y="-200%" width="200%" height="500%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <linearGradient id="dl-beam" x1="0" y1="196" x2="0" y2="470" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FCD34D" stop-opacity="0.6"/>
+      <stop offset="0.6" stop-color="#FDE68A" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#FDE68A" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="dl-top" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E2E8F0"/>
+    </linearGradient>
+    <linearGradient id="dl-side" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#E2E8F0"/>
+      <stop offset="0.5" stop-color="#CBD5E1"/>
+      <stop offset="1" stop-color="#94A3B8"/>
+    </linearGradient>
+    <linearGradient id="dl-head" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#CBD5E1"/>
+    </linearGradient>
+    <linearGradient id="dl-arm" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.55" stop-color="#E2E8F0"/>
+      <stop offset="1" stop-color="#94A3B8"/>
+    </linearGradient>
+    <radialGradient id="dl-joint" cx="0.35" cy="0.3" r="0.8">
+      <stop offset="0" stop-color="#64748B"/>
+      <stop offset="1" stop-color="#1E293B"/>
+    </radialGradient>
+  </defs>
+  <!-- shadows and light pool -->
+  <ellipse cx="204" cy="478" rx="112" ry="12" fill="#0F172A" opacity="0.15" filter="url(#dl-blur)"/>
+  <ellipse cx="404" cy="466" rx="100" ry="16" fill="#FCD34D" opacity="0.45" filter="url(#dl-glow)"/>
+  <!-- light beam -->
+  <path d="M352 197 L452 214 L502 468 L308 468 Z" fill="url(#dl-beam)"/>
+  <!-- base -->
+  <path d="M110 448 A90 22 0 0 0 290 448 L290 462 A90 22 0 0 1 110 462 Z" fill="url(#dl-side)"/>
+  <ellipse cx="200" cy="448" rx="90" ry="22" fill="url(#dl-top)" stroke="#CBD5E1" stroke-width="1.5"/>
+  <ellipse cx="226" cy="452" rx="42" ry="10" fill="#F1F5F9" stroke="#94A3B8" stroke-width="1.5"/>
+  <ellipse cx="226" cy="452" rx="30" ry="7" fill="none" stroke="#CBD5E1" stroke-width="1.2"/>
+  <path d="M228 446.5 L222 452.5 L227 452.5 L224 457.5 L231 450.5 L226 450.5 Z" fill="#F59E0B"/>
+  <!-- arm -->
+  <g transform="translate(178 440) rotate(-98.9)">
+    <rect x="-10" y="-10" width="200.2" height="20" rx="10" fill="url(#dl-arm)" stroke="#CBD5E1" stroke-width="1"/>
+    <path d="M4 -5 L176 -5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+  </g>
+  <g transform="translate(150 262) rotate(-26.3)">
+    <rect x="-10" y="-10" width="232" height="20" rx="10" fill="url(#dl-arm)" stroke="#CBD5E1" stroke-width="1"/>
+    <path d="M6 -5 L206 -5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+  </g>
+  <!-- base knuckle -->
+  <rect x="164" y="422" width="30" height="30" rx="9" fill="url(#dl-joint)"/>
+  <circle cx="179" cy="437" r="5" fill="#CBD5E1"/>
+  <!-- elbow joint -->
+  <circle cx="150" cy="262" r="15" fill="url(#dl-joint)"/>
+  <circle cx="150" cy="262" r="5.5" fill="#CBD5E1"/>
+  <!-- head -->
+  <g transform="translate(340 168) rotate(10)">
+    <rect x="4" y="16" width="104" height="8" rx="4" fill="#FEF3C7"/>
+    <rect x="4" y="18" width="104" height="10" rx="5" fill="#FCD34D" opacity="0.8" filter="url(#dl-glow)"/>
+    <rect x="-12" y="-10" width="132" height="26" rx="13" fill="url(#dl-head)" stroke="#CBD5E1" stroke-width="1.5"/>
+    <rect x="6" y="10" width="100" height="7" rx="3.5" fill="#FFFBEB" stroke="#FCD34D" stroke-width="1.2"/>
+    <path d="M2 -5 L100 -5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <!-- head joint -->
+  <circle cx="340" cy="168" r="14" fill="url(#dl-joint)"/>
+  <circle cx="340" cy="168" r="5" fill="#CBD5E1"/>
+</svg>

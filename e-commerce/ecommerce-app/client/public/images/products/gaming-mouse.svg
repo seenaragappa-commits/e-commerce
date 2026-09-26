@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600" role="img" aria-label="Black ergonomic gaming mouse seen from above with split buttons, scroll wheel, side buttons and blue-violet RGB lighting">
+  <title>Gaming Mouse</title>
+  <defs>
+    <filter id="ms-blur" x="-50%" y="-300%" width="200%" height="700%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <filter id="ms-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <linearGradient id="ms-rgb" x1="0" y1="250" x2="0" y2="476" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#06B6D4" stop-opacity="0"/>
+      <stop offset="0.2" stop-color="#06B6D4"/>
+      <stop offset="0.5" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <linearGradient id="ms-rgb-c" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#06B6D4"/>
+      <stop offset="0.5" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <radialGradient id="ms-shell" cx="0.32" cy="0.22" r="0.95">
+      <stop offset="0" stop-color="#475569"/>
+      <stop offset="0.45" stop-color="#1E293B"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </radialGradient>
+    <linearGradient id="ms-wheel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#64748B"/>
+      <stop offset="1" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="ms-side" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#64748B"/>
+      <stop offset="1" stop-color="#334155"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="300" cy="488" rx="120" ry="12" fill="#0F172A" opacity="0.15" filter="url(#ms-blur)"/>
+  <!-- RGB underglow rim -->
+  <path d="M209 258 C212 300 200 350 200 392 C200 440 240 474 300 474 C360 474 400 440 400 392 C400 350 388 300 391 258" fill="none" stroke="url(#ms-rgb)" stroke-width="12" stroke-linecap="round" filter="url(#ms-glow)" opacity="0.8"/>
+  <path d="M209 258 C212 300 200 350 200 392 C200 440 240 474 300 474 C360 474 400 440 400 392 C400 350 388 300 391 258" fill="none" stroke="url(#ms-rgb)" stroke-width="8" stroke-linecap="round"/>
+  <!-- side buttons -->
+  <rect x="197" y="244" width="17" height="38" rx="7.5" fill="url(#ms-side)"/>
+  <rect x="197" y="288" width="17" height="38" rx="7.5" fill="url(#ms-side)"/>
+  <!-- shell -->
+  <path d="M300 100 C344 100 378 118 388 158 C396 196 394 250 390 290 C386 322 400 350 400 392 C400 440 360 474 300 474 C240 474 200 440 200 392 C200 350 214 322 210 290 C206 250 204 196 212 158 C222 118 256 100 300 100 Z" fill="url(#ms-shell)"/>
+  <!-- side button tops -->
+  <rect x="200" y="247" width="9" height="32" rx="4.5" fill="#64748B" opacity="0.55"/>
+  <rect x="200" y="291" width="9" height="32" rx="4.5" fill="#64748B" opacity="0.55"/>
+  <!-- button seams -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M211 236 C238 250 264 251 286 240" stroke="#0F172A" stroke-width="3.5"/>
+    <path d="M314 240 C336 251 362 250 389 236" stroke="#0F172A" stroke-width="3.5"/>
+    <path d="M212 240 C238 254 264 255 286 244" stroke="#64748B" stroke-width="1.2" opacity="0.5"/>
+    <path d="M314 244 C336 255 362 254 388 240" stroke="#64748B" stroke-width="1.2" opacity="0.5"/>
+  </g>
+  <!-- wheel channel -->
+  <rect x="284" y="106" width="32" height="140" rx="16" fill="#0F172A"/>
+  <rect x="284" y="106" width="32" height="140" rx="16" fill="none" stroke="#475569" stroke-width="1" opacity="0.5"/>
+  <rect x="289" y="124" width="22" height="54" rx="11" fill="url(#ms-rgb-c)" filter="url(#ms-glow)" opacity="0.6"/>
+  <rect x="290" y="126" width="20" height="50" rx="10" fill="url(#ms-wheel)"/>
+  <g stroke="#0F172A" stroke-width="1.6" opacity="0.7">
+    <line x1="292" y1="134" x2="308" y2="134"/>
+    <line x1="292" y1="140" x2="308" y2="140"/>
+    <line x1="291" y1="146" x2="309" y2="146"/>
+    <line x1="291" y1="152" x2="309" y2="152"/>
+    <line x1="291" y1="158" x2="309" y2="158"/>
+    <line x1="292" y1="164" x2="308" y2="164"/>
+    <line x1="292" y1="170" x2="308" y2="170"/>
+  </g>
+  <rect x="290" y="126" width="20" height="50" rx="10" fill="none" stroke="#60A5FA" stroke-width="1.4" opacity="0.8"/>
+  <rect x="292" y="190" width="16" height="12" rx="5" fill="#334155"/>
+  <rect x="292" y="208" width="16" height="12" rx="5" fill="#334155"/>
+  <circle cx="300" cy="230" r="2.2" fill="#60A5FA"/>
+  <!-- center light strip -->
+  <rect x="294" y="268" width="12" height="84" rx="6" fill="url(#ms-rgb-c)" filter="url(#ms-glow)" opacity="0.9"/>
+  <rect x="297" y="270" width="6" height="80" rx="3" fill="url(#ms-rgb-c)"/>
+  <rect x="298.5" y="274" width="1.6" height="60" rx="0.8" fill="#FFFFFF" opacity="0.6"/>
+  <!-- highlights -->
+  <path d="M222 152 C230 126 256 110 280 107" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity="0.22"/>
+  <path d="M216 190 C214 214 214 226 215 232" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.12"/>
+  <path d="M332 108 C356 112 374 126 382 146" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.1"/>
+</svg>

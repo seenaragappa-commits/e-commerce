@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600" role="img" aria-label="Set of two ceramic coffee mugs, one terracotta and one cream with coffee and rising steam">
+  <title>Coffee Mug Set</title>
+  <defs>
+    <filter id="mug-blur" x="-50%" y="-300%" width="200%" height="700%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <filter id="mug-steam" x="-50%" y="-20%" width="200%" height="140%">
+      <feGaussianBlur stdDeviation="2.2"/>
+    </filter>
+    <linearGradient id="mug-terra" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F29066"/>
+      <stop offset="0.35" stop-color="#E0673A"/>
+      <stop offset="0.75" stop-color="#C2410C"/>
+      <stop offset="1" stop-color="#9A3412"/>
+    </linearGradient>
+    <linearGradient id="mug-cream" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.4" stop-color="#FBF6EE"/>
+      <stop offset="0.8" stop-color="#EADFCC"/>
+      <stop offset="1" stop-color="#D6C7B0"/>
+    </linearGradient>
+    <linearGradient id="mug-inside" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FBF6EE"/>
+      <stop offset="1" stop-color="#D6C7B0"/>
+    </linearGradient>
+    <linearGradient id="mug-clay" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#E7D9C3"/>
+      <stop offset="1" stop-color="#B8A488"/>
+    </linearGradient>
+    <radialGradient id="mug-coffee" cx="0.4" cy="0.35" r="0.7">
+      <stop offset="0" stop-color="#8B5A3C"/>
+      <stop offset="0.6" stop-color="#5C3520"/>
+      <stop offset="1" stop-color="#3B2114"/>
+    </radialGradient>
+    <linearGradient id="mug-steam-g" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#94A3B8" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#94A3B8" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="mug-shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="mug-b-in">
+      <ellipse cx="374" cy="287" rx="71" ry="15.5"/>
+    </clipPath>
+  </defs>
+  <ellipse cx="248" cy="432" rx="96" ry="11" fill="#0F172A" opacity="0.13" filter="url(#mug-blur)"/>
+  <ellipse cx="376" cy="472" rx="94" ry="11" fill="#0F172A" opacity="0.15" filter="url(#mug-blur)"/>
+
+  <!-- mug A (terracotta, back) -->
+  <path d="M170 280 C112 272 104 386 172 382 L172 360 C132 362 134 300 170 302 Z" fill="url(#mug-terra)"/>
+  <path d="M150 300 C136 316 136 352 148 366" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.25"/>
+  <path d="M166 236 L170 410 A78 19 0 0 0 326 410 L330 236 A82 20 0 0 1 166 236 Z" fill="url(#mug-terra)"/>
+  <path d="M169.6 392 A78 19 0 0 0 326.4 392 L326 410 A78 19 0 0 1 170 410 Z" fill="url(#mug-clay)"/>
+  <path d="M186 262 C184 310 186 360 190 392" fill="none" stroke="url(#mug-shine)" stroke-width="18" stroke-linecap="round" opacity="0.7"/>
+  <ellipse cx="248" cy="236" rx="82" ry="20" fill="#E0673A"/>
+  <ellipse cx="248" cy="237" rx="74" ry="16.5" fill="url(#mug-inside)"/>
+  <path d="M176 238 A74 16.5 0 0 1 320 238" fill="none" stroke="#C9B89E" stroke-width="2" opacity="0.6"/>
+  <path d="M190 226 C220 219 270 218 300 222" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- mug B (cream, front) -->
+  <path d="M448 330 C508 324 514 432 446 428 L446 406 C488 408 486 350 448 352 Z" fill="url(#mug-cream)" stroke="#D6C7B0" stroke-width="1"/>
+  <path d="M296 286 L299 452 A75 18 0 0 0 449 452 L452 286 A78 19 0 0 1 296 286 Z" fill="url(#mug-cream)"/>
+  <path d="M298.6 434 A75 18 0 0 0 449.4 434 L449 452 A75 18 0 0 1 299 452 Z" fill="url(#mug-clay)"/>
+  <path d="M314 312 C312 358 314 404 318 434" fill="none" stroke="url(#mug-shine)" stroke-width="18" stroke-linecap="round"/>
+  <path d="M296 286 L299 452 A75 18 0 0 0 449 452 L452 286" fill="none" stroke="#D6C7B0" stroke-width="1"/>
+  <ellipse cx="374" cy="286" rx="78" ry="19" fill="#FBF6EE" stroke="#D6C7B0" stroke-width="1"/>
+  <ellipse cx="374" cy="287" rx="71" ry="15.5" fill="url(#mug-inside)"/>
+  <g clip-path="url(#mug-b-in)">
+    <ellipse cx="374" cy="297" rx="68" ry="14" fill="url(#mug-coffee)"/>
+    <ellipse cx="374" cy="297" rx="68" ry="14" fill="none" stroke="#B07A52" stroke-width="3" opacity="0.7"/>
+    <ellipse cx="352" cy="293" rx="16" ry="3.5" fill="#FFFFFF" opacity="0.18"/>
+  </g>
+  <path d="M316 276 C346 269 396 268 426 272" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.9"/>
+
+  <!-- steam -->
+  <g fill="none" stroke="url(#mug-steam-g)" stroke-linecap="round" filter="url(#mug-steam)">
+    <path d="M352 272 C338 250 366 232 352 208 C340 188 362 172 354 150" stroke-width="7"/>
+    <path d="M386 268 C376 250 400 236 390 214 C382 198 398 186 392 170" stroke-width="6"/>
+  </g>
+</svg>

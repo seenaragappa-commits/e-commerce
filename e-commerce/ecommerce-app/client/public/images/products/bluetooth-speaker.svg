@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600" role="img" aria-label="Portable cylindrical bluetooth speaker with teal fabric grille, dark rubber end caps and carry strap">
+  <title>Bluetooth Speaker</title>
+  <defs>
+    <filter id="spk-blur" x="-50%" y="-300%" width="200%" height="700%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <linearGradient id="spk-fabric" x1="0" y1="258" x2="0" y2="434" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0D9488"/>
+      <stop offset="0.16" stop-color="#5EEAD4"/>
+      <stop offset="0.36" stop-color="#2DD4BF"/>
+      <stop offset="0.72" stop-color="#0D9488"/>
+      <stop offset="1" stop-color="#115E59"/>
+    </linearGradient>
+    <linearGradient id="spk-depth" x1="140" y1="0" x2="444" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0F172A" stop-opacity="0.22"/>
+      <stop offset="0.35" stop-color="#0F172A" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0F172A" stop-opacity="0.08"/>
+    </linearGradient>
+    <pattern id="spk-dots" width="7" height="7" patternUnits="userSpaceOnUse">
+      <circle cx="3.5" cy="3.5" r="1.35" fill="#0F172A" opacity="0.26"/>
+    </pattern>
+    <linearGradient id="spk-rubber" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#475569"/>
+      <stop offset="0.3" stop-color="#334155"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="spk-cap" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#475569"/>
+      <stop offset="1" stop-color="#1E293B"/>
+    </linearGradient>
+    <radialGradient id="spk-radiator" cx="0.4" cy="0.35" r="0.8">
+      <stop offset="0" stop-color="#475569"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </radialGradient>
+    <linearGradient id="spk-strap" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#475569"/>
+      <stop offset="1" stop-color="#1E293B"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="294" cy="452" rx="182" ry="12" fill="#0F172A" opacity="0.14" filter="url(#spk-blur)"/>
+  <!-- carry strap -->
+  <path d="M152 300 C114 282 86 298 92 324 C97 346 124 352 152 338" fill="none" stroke="url(#spk-strap)" stroke-width="11" stroke-linecap="round"/>
+  <path d="M104 298 C95 305 93 316 96 326" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.2"/>
+  <!-- left rubber cap (far end) -->
+  <path d="M140 266 L166 265 A32.4 81 0 0 0 166 427 L140 426 A32 80 0 0 1 140 266 Z" fill="url(#spk-rubber)"/>
+  <!-- fabric body -->
+  <path d="M166 265 L418 259 A34.8 87 0 0 0 418 433 L166 427 A32.4 81 0 0 1 166 265 Z" fill="url(#spk-fabric)"/>
+  <path d="M166 265 L418 259 A34.8 87 0 0 0 418 433 L166 427 A32.4 81 0 0 1 166 265 Z" fill="url(#spk-dots)"/>
+  <path d="M166 265 L418 259 A34.8 87 0 0 0 418 433 L166 427 A32.4 81 0 0 1 166 265 Z" fill="url(#spk-depth)"/>
+  <!-- controls on top -->
+  <rect x="236" y="268" width="128" height="14" rx="7" fill="#1E293B" opacity="0.92"/>
+  <g fill="#94A3B8">
+    <rect x="251" y="274" width="10" height="2.4" rx="1.2"/>
+    <path d="M281 270.6 L289 275.2 L281 279.8 Z"/>
+    <rect x="309" y="274" width="10" height="2.4" rx="1.2"/>
+    <rect x="312.8" y="270.2" width="2.4" height="10" rx="1.2"/>
+    <circle cx="343" cy="275.2" r="3.6" fill="none" stroke="#94A3B8" stroke-width="1.8"/>
+  </g>
+  <!-- right rubber band -->
+  <path d="M418 259 L444 258 A35.2 88 0 0 0 444 434 L418 433 A34.8 87 0 0 1 418 259 Z" fill="url(#spk-rubber)"/>
+  <!-- right end cap -->
+  <ellipse cx="444" cy="346" rx="35.2" ry="88" fill="url(#spk-cap)"/>
+  <ellipse cx="446" cy="346" rx="25" ry="65" fill="url(#spk-radiator)"/>
+  <ellipse cx="446" cy="346" rx="25" ry="65" fill="none" stroke="#64748B" stroke-width="1.5" opacity="0.6"/>
+  <ellipse cx="447" cy="346" rx="11" ry="28" fill="#1E293B"/>
+  <ellipse cx="447" cy="346" rx="11" ry="28" fill="none" stroke="#475569" stroke-width="1.2"/>
+  <path d="M419 300 C422 282 430 268 440 262" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" opacity="0.25"/>
+  <!-- fabric highlight -->
+  <path d="M180 288 L404 283" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" opacity="0.12"/>
+</svg>

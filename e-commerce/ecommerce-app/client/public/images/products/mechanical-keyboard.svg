@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600" role="img" aria-label="Compact mechanical keyboard with white and light gray keycaps, blue Escape and Enter keys, on a slate case">
+  <title>Mechanical Keyboard</title>
+  <defs>
+    <filter id="kb-blur" x="-50%" y="-300%" width="200%" height="700%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <filter id="kb-glow" x="-20%" y="-100%" width="140%" height="300%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+    <linearGradient id="kb-rgb" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#06B6D4"/>
+      <stop offset="0.5" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <linearGradient id="kb-case" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#64748B"/>
+      <stop offset="0.12" stop-color="#475569"/>
+      <stop offset="1" stop-color="#334155"/>
+    </linearGradient>
+    <linearGradient id="kb-top-w" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F1F5F9"/>
+    </linearGradient>
+    <linearGradient id="kb-top-g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F1F5F9"/>
+      <stop offset="1" stop-color="#E2E8F0"/>
+    </linearGradient>
+    <linearGradient id="kb-top-b" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#3B82F6"/>
+    </linearGradient>
+    <linearGradient id="kb-top-s" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#64748B"/>
+      <stop offset="1" stop-color="#475569"/>
+    </linearGradient>
+    <g id="kb-w"><rect width="24" height="24" rx="4" fill="#CBD5E1"/><rect x="2.5" y="1.5" width="19" height="17" rx="3.5" fill="url(#kb-top-w)"/></g>
+    <g id="kb-g"><rect width="24" height="24" rx="4" fill="#94A3B8"/><rect x="2.5" y="1.5" width="19" height="17" rx="3.5" fill="url(#kb-top-g)"/></g>
+    <g id="kb-b"><rect width="24" height="24" rx="4" fill="#1D4ED8"/><rect x="2.5" y="1.5" width="19" height="17" rx="3.5" fill="url(#kb-top-b)"/></g>
+    <g id="kb-s"><rect width="24" height="24" rx="4" fill="#1E293B"/><rect x="2.5" y="1.5" width="19" height="17" rx="3.5" fill="url(#kb-top-s)"/></g>
+  </defs>
+  <ellipse cx="300" cy="439" rx="236" ry="12" fill="#0F172A" opacity="0.14" filter="url(#kb-blur)"/>
+  <rect x="87.8" y="407" width="422" height="26" rx="13" fill="url(#kb-rgb)" opacity="0.55" filter="url(#kb-glow)"/>
+  <rect x="71.8" y="227" width="454" height="204" rx="22" fill="#1E293B"/>
+  <rect x="71.8" y="221" width="454" height="196" rx="22" fill="url(#kb-case)"/>
+  <rect x="72.8" y="222" width="452" height="194" rx="21" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.18"/>
+  <rect x="83.8" y="233" width="430" height="172" rx="9" fill="#1E293B"/>
+  <use href="#kb-b" x="88.8" y="238"/>
+  <use href="#kb-w" x="115.2" y="238"/>
+  <use href="#kb-w" x="141.6" y="238"/>
+  <use href="#kb-w" x="168" y="238"/>
+  <use href="#kb-w" x="194.4" y="238"/>
+  <use href="#kb-w" x="220.8" y="238"/>
+  <use href="#kb-w" x="247.2" y="238"/>
+  <use href="#kb-w" x="273.6" y="238"/>
+  <use href="#kb-w" x="300" y="238"/>
+  <use href="#kb-w" x="326.4" y="238"/>
+  <use href="#kb-w" x="352.8" y="238"/>
+  <use href="#kb-w" x="379.2" y="238"/>
+  <use href="#kb-w" x="405.6" y="238"/>
+  <use href="#kb-g" x="432" y="238"/>
+  <use href="#kb-g" x="458.4" y="238"/>
+  <use href="#kb-g" x="484.8" y="238"/>
+  <use href="#kb-w" x="88.8" y="270.4"/>
+  <use href="#kb-w" x="115.2" y="270.4"/>
+  <use href="#kb-w" x="141.6" y="270.4"/>
+  <use href="#kb-w" x="168" y="270.4"/>
+  <use href="#kb-w" x="194.4" y="270.4"/>
+  <use href="#kb-w" x="220.8" y="270.4"/>
+  <use href="#kb-w" x="247.2" y="270.4"/>
+  <use href="#kb-w" x="273.6" y="270.4"/>
+  <use href="#kb-w" x="300" y="270.4"/>
+  <use href="#kb-w" x="326.4" y="270.4"/>
+  <use href="#kb-w" x="352.8" y="270.4"/>
+  <use href="#kb-w" x="379.2" y="270.4"/>
+  <use href="#kb-w" x="405.6" y="270.4"/>
+  <rect x="432" y="270.4" width="50.4" height="24" rx="4" fill="#94A3B8"/><rect x="434.5" y="271.9" width="45.4" height="17" rx="3.5" fill="url(#kb-top-g)"/>
+  <use href="#kb-g" x="484.8" y="270.4"/>
+  <rect x="88.8" y="296.8" width="37.2" height="24" rx="4" fill="#94A3B8"/><rect x="91.3" y="298.3" width="32.2" height="17" rx="3.5" fill="url(#kb-top-g)"/>
+  <use href="#kb-w" x="128.4" y="296.8"/>
+  <use href="#kb-w" x="154.8" y="296.8"/>
+  <use href="#kb-w" x="181.2" y="296.8"/>
+  <use href="#kb-w" x="207.6" y="296.8"/>
+  <use href="#kb-w" x="234" y="296.8"/>
+  <use href="#kb-w" x="260.4" y="296.8"/>
+  <use href="#kb-w" x="286.8" y="296.8"/>
+  <use href="#kb-w" x="313.2" y="296.8"/>
+  <use href="#kb-w" x="339.6" y="296.8"/>
+  <use href="#kb-w" x="366" y="296.8"/>
+  <use href="#kb-w" x="392.4" y="296.8"/>
+  <use href="#kb-w" x="418.8" y="296.8"/>
+  <rect x="445.2" y="296.8" width="37.2" height="24" rx="4" fill="#94A3B8"/><rect x="447.7" y="298.3" width="32.2" height="17" rx="3.5" fill="url(#kb-top-g)"/>
+  <use href="#kb-g" x="484.8" y="296.8"/>
+  <rect x="88.8" y="323.2" width="43.8" height="24" rx="4" fill="#94A3B8"/><rect x="91.3" y="324.7" width="38.8" height="17" rx="3.5" fill="url(#kb-top-g)"/>
+  <use href="#kb-w" x="135" y="323.2"/>
+  <use href="#kb-w" x="161.4" y="323.2"/>
+  <use href="#kb-w" x="187.8" y="323.2"/>
+  <use href="#kb-w" x="214.2" y="323.2"/>
+  <use href="#kb-w" x="240.6" y="323.2"/>
+  <use href="#kb-w" x="267" y="323.2"/>
+  <use href="#kb-w" x="293.4" y="323.2"/>
+  <use href="#kb-w" x="319.8" y="323.2"/>
+  <use href="#kb-w" x="346.2" y="323.2"/>
+  <use href="#kb-w" x="372.6" y="323.2"/>
+  <use href="#kb-w" x="399" y="323.2"/>
+  <rect x="425.4" y="323.2" width="57" height="24" rx="4" fill="#1D4ED8"/><rect x="427.9" y="324.7" width="52" height="17" rx="3.5" fill="url(#kb-top-b)"/>
+  <use href="#kb-g" x="484.8" y="323.2"/>
+  <rect x="88.8" y="349.6" width="57" height="24" rx="4" fill="#94A3B8"/><rect x="91.3" y="351.1" width="52" height="17" rx="3.5" fill="url(#kb-top-g)"/>
+  <use href="#kb-w" x="148.2" y="349.6"/>
+  <use href="#kb-w" x="174.6" y="349.6"/>
+  <use href="#kb-w" x="201" y="349.6"/>
+  <use href="#kb-w" x="227.4" y="349.6"/>
+  <use href="#kb-w" x="253.8" y="349.6"/>
+  <use href="#kb-w" x="280.2" y="349.6"/>
+  <use href="#kb-w" x="306.6" y="349.6"/>
+  <use href="#kb-w" x="333" y="349.6"/>
+  <use href="#kb-w" x="359.4" y="349.6"/>
+  <use href="#kb-w" x="385.8" y="349.6"/>
+  <rect x="412.2" y="349.6" width="43.8" height="24" rx="4" fill="#94A3B8"/><rect x="414.7" y="351.1" width="38.8" height="17" rx="3.5" fill="url(#kb-top-g)"/>
+  <use href="#kb-s" x="458.4" y="349.6"/>
+  <use href="#kb-g" x="484.8" y="349.6"/>
+  <rect x="88.8" y="376" width="30.6" height="24" rx="4" fill="#94A3B8"/><rect x="91.3" y="377.5" width="25.6" height="17" rx="3.5" fill="url(#kb-top-g)"/>
+  <rect x="121.8" y="376" width="30.6" height="24" rx="4" fill="#94A3B8"/><rect x="124.3" y="377.5" width="25.6" height="17" rx="3.5" fill="url(#kb-top-g)"/>
+  <rect x="154.8" y="376" width="30.6" height="24" rx="4" fill="#94A3B8"/><rect x="157.3" y="377.5" width="25.6" height="17" rx="3.5" fill="url(#kb-top-g)"/>
+  <rect x="187.8" y="376" width="162.6" height="24" rx="4" fill="#CBD5E1"/><rect x="190.3" y="377.5" width="157.6" height="17" rx="3.5" fill="url(#kb-top-w)"/>
+  <use href="#kb-g" x="352.8" y="376"/>
+  <use href="#kb-g" x="379.2" y="376"/>
+  <use href="#kb-g" x="405.6" y="376"/>
+  <use href="#kb-s" x="432" y="376"/>
+  <use href="#kb-s" x="458.4" y="376"/>
+  <use href="#kb-s" x="484.8" y="376"/>
+</svg>

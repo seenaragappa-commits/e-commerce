@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600" role="img" aria-label="Aviator sunglasses with thin gold frame, double bridge and blue-to-teal gradient lenses">
+  <title>Aviator Sunglasses</title>
+  <defs>
+    <filter id="av-blur" x="-50%" y="-300%" width="200%" height="700%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <path id="av-lens" d="M283 272 C250 262 170 258 132 264 C108 268 100 290 102 318 C106 380 160 418 222 418 C258 418 278 392 283 352 C287 318 289 290 283 272 Z"/>
+    <linearGradient id="av-tint" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#0F172A"/>
+      <stop offset="0.35" stop-color="#1E3A8A"/>
+      <stop offset="0.7" stop-color="#0E7490"/>
+      <stop offset="1" stop-color="#14B8A6"/>
+    </linearGradient>
+    <linearGradient id="av-gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FCD34D"/>
+      <stop offset="0.5" stop-color="#F59E0B"/>
+      <stop offset="1" stop-color="#B45309"/>
+    </linearGradient>
+    <linearGradient id="av-gold-h" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDE68A"/>
+      <stop offset="1" stop-color="#B45309"/>
+    </linearGradient>
+    <clipPath id="av-clip-l">
+      <use href="#av-lens"/>
+    </clipPath>
+    <clipPath id="av-clip-r">
+      <use href="#av-lens" transform="matrix(-1 0 0 1 600 0)"/>
+    </clipPath>
+  </defs>
+  <ellipse cx="300" cy="446" rx="186" ry="11" fill="#0F172A" opacity="0.13" filter="url(#av-blur)"/>
+  <!-- temples (behind) -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M104 266 C126 246 150 228 184 212" stroke="url(#av-gold-h)" stroke-width="4"/>
+    <path d="M184 212 C196 206 206 203 214 205" stroke="#334155" stroke-width="6.5"/>
+    <path d="M496 266 C474 246 450 228 416 212" stroke="url(#av-gold-h)" stroke-width="4"/>
+    <path d="M416 212 C404 206 394 203 386 205" stroke="#334155" stroke-width="6.5"/>
+  </g>
+  <!-- lenses -->
+  <use href="#av-lens" fill="url(#av-tint)"/>
+  <use href="#av-lens" fill="url(#av-tint)" transform="matrix(-1 0 0 1 600 0)"/>
+  <g clip-path="url(#av-clip-l)" fill="#FFFFFF">
+    <path d="M162 256 L200 256 L122 420 L92 390 Z" opacity="0.2"/>
+    <path d="M212 256 L224 256 L150 420 L140 420 Z" opacity="0.14"/>
+    <ellipse cx="230" cy="400" rx="60" ry="22" fill="#5EEAD4" opacity="0.25"/>
+  </g>
+  <g clip-path="url(#av-clip-r)" fill="#FFFFFF">
+    <path d="M378 256 L416 256 L338 420 L308 390 Z" opacity="0.2"/>
+    <path d="M428 256 L440 256 L366 420 L356 420 Z" opacity="0.14"/>
+    <ellipse cx="370" cy="400" rx="60" ry="22" fill="#5EEAD4" opacity="0.25"/>
+  </g>
+  <!-- frame rims -->
+  <use href="#av-lens" fill="none" stroke="url(#av-gold)" stroke-width="5"/>
+  <use href="#av-lens" fill="none" stroke="url(#av-gold)" stroke-width="5" transform="matrix(-1 0 0 1 600 0)"/>
+  <!-- double bridge -->
+  <path d="M246 265 C272 259 328 259 354 265" fill="none" stroke="url(#av-gold-h)" stroke-width="5" stroke-linecap="round"/>
+  <path d="M284 302 C290 289 310 289 316 302" fill="none" stroke="url(#av-gold-h)" stroke-width="4.5" stroke-linecap="round"/>
+  <!-- nose pads -->
+  <g fill="none" stroke="#B45309" stroke-width="2" stroke-linecap="round">
+    <path d="M287 300 C283 312 280 320 277 326"/>
+    <path d="M313 300 C317 312 320 320 323 326"/>
+  </g>
+  <ellipse cx="271" cy="338" rx="6" ry="12" fill="#CBD5E1" fill-opacity="0.22" stroke="#E2E8F0" stroke-width="1.4" stroke-opacity="0.7" transform="rotate(12 271 338)"/>
+  <ellipse cx="329" cy="338" rx="6" ry="12" fill="#CBD5E1" fill-opacity="0.22" stroke="#E2E8F0" stroke-width="1.4" stroke-opacity="0.7" transform="rotate(-12 329 338)"/>
+  <!-- hinges -->
+  <rect x="92" y="262" width="18" height="12" rx="4" fill="url(#av-gold-h)"/>
+  <rect x="490" y="262" width="18" height="12" rx="4" fill="url(#av-gold-h)"/>
+  <!-- rim highlights -->
+  <path d="M138 266 C170 261 220 262 262 268" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  <path d="M338 268 C380 262 430 261 462 266" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+</svg>

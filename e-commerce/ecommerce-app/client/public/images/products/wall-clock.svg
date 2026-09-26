@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600" role="img" aria-label="Minimalist round wall clock with a wooden rim, light face, slim dark hands and an orange second hand">
+  <title>Wall Clock</title>
+  <defs>
+    <filter id="clk-blur" x="-50%" y="-300%" width="200%" height="700%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <filter id="clk-hand" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="2" dy="4" result="off"/>
+      <feFlood flood-color="#0F172A" flood-opacity="0.22"/>
+      <feComposite in2="off" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="clk-wood" x1="0.15" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#E2B485"/>
+      <stop offset="0.5" stop-color="#B9804D"/>
+      <stop offset="1" stop-color="#8A5A2E"/>
+    </linearGradient>
+    <radialGradient id="clk-face" cx="0.45" cy="0.4" r="0.65">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.8" stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#E2E8F0"/>
+    </radialGradient>
+    <radialGradient id="clk-inner" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0.86" stop-color="#0F172A" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0F172A" stop-opacity="0.16"/>
+    </radialGradient>
+    <linearGradient id="clk-gloss" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="300" cy="488" rx="150" ry="11" fill="#0F172A" opacity="0.14" filter="url(#clk-blur)"/>
+  <!-- wooden rim -->
+  <circle cx="300" cy="290" r="190" fill="url(#clk-wood)"/>
+  <g fill="none" stroke="#7A4A22" stroke-linecap="round" opacity="0.28">
+    <path d="M142 214 A176 176 0 0 1 250 121" stroke-width="1.6"/>
+    <path d="M136 300 A172 172 0 0 1 168 190" stroke-width="1.2"/>
+    <path d="M402 139 A182 182 0 0 1 470 226" stroke-width="1.4"/>
+    <path d="M466 360 A176 176 0 0 1 380 452" stroke-width="1.6"/>
+    <path d="M220 455 A178 178 0 0 1 150 392" stroke-width="1.2"/>
+  </g>
+  <path d="M136 208 A186 186 0 0 1 250 108" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
+  <circle cx="300" cy="290" r="170" fill="#7A4A22" opacity="0.55"/>
+  <!-- face -->
+  <circle cx="300" cy="290" r="167" fill="url(#clk-face)"/>
+  <circle cx="300" cy="290" r="167" fill="url(#clk-inner)"/>
+  <!-- minute marks -->
+  <circle cx="300" cy="290" r="147" fill="none" stroke="#94A3B8" stroke-width="6" stroke-dasharray="1.6 13.794" stroke-dashoffset="0.8" transform="rotate(-90 300 290)"/>
+  <!-- hour ticks -->
+  <g stroke-linecap="round">
+    <g stroke="#1E293B" stroke-width="7">
+      <line x1="300" y1="140" x2="300" y2="164"/>
+      <line x1="300" y1="140" x2="300" y2="164" transform="rotate(90 300 290)"/>
+      <line x1="300" y1="140" x2="300" y2="164" transform="rotate(180 300 290)"/>
+      <line x1="300" y1="140" x2="300" y2="164" transform="rotate(270 300 290)"/>
+    </g>
+    <g stroke="#475569" stroke-width="4">
+      <line x1="300" y1="141" x2="300" y2="157" transform="rotate(30 300 290)"/>
+      <line x1="300" y1="141" x2="300" y2="157" transform="rotate(60 300 290)"/>
+      <line x1="300" y1="141" x2="300" y2="157" transform="rotate(120 300 290)"/>
+      <line x1="300" y1="141" x2="300" y2="157" transform="rotate(150 300 290)"/>
+      <line x1="300" y1="141" x2="300" y2="157" transform="rotate(210 300 290)"/>
+      <line x1="300" y1="141" x2="300" y2="157" transform="rotate(240 300 290)"/>
+      <line x1="300" y1="141" x2="300" y2="157" transform="rotate(300 300 290)"/>
+      <line x1="300" y1="141" x2="300" y2="157" transform="rotate(330 300 290)"/>
+    </g>
+  </g>
+  <!-- hands (10:09:36) -->
+  <g filter="url(#clk-hand)" stroke-linecap="round">
+    <line x1="300" y1="306" x2="300" y2="204" stroke="#1E293B" stroke-width="10" transform="rotate(304.5 300 290)"/>
+    <line x1="300" y1="310" x2="300" y2="162" stroke="#1E293B" stroke-width="6" transform="rotate(54 300 290)"/>
+    <g transform="rotate(216 300 290)">
+      <line x1="300" y1="322" x2="300" y2="150" stroke="#F97316" stroke-width="2.6"/>
+      <circle cx="300" cy="322" r="5.5" fill="#F97316"/>
+    </g>
+    <circle cx="300" cy="290" r="10" fill="#1E293B"/>
+  </g>
+  <circle cx="300" cy="290" r="4.2" fill="#F97316"/>
+  <!-- glass reflection -->
+  <path d="M170 250 A134 134 0 0 1 300 156 A150 150 0 0 0 186 300 Z" fill="url(#clk-gloss)" opacity="0.6"/>
+</svg>

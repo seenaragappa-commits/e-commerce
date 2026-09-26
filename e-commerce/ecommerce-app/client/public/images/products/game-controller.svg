@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600" role="img" aria-label="White wireless game controller with slate D-pad and thumbsticks and blue, emerald, rose and amber face buttons">
+  <title>Wireless Game Controller</title>
+  <defs>
+    <filter id="gc-blur" x="-50%" y="-300%" width="200%" height="700%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <linearGradient id="gc-body" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.55" stop-color="#F1F5F9"/>
+      <stop offset="1" stop-color="#CBD5E1"/>
+    </linearGradient>
+    <linearGradient id="gc-shade" x1="0" y1="300" x2="0" y2="460" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#94A3B8" stop-opacity="0"/>
+      <stop offset="1" stop-color="#94A3B8" stop-opacity="0.45"/>
+    </linearGradient>
+    <linearGradient id="gc-slate" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#475569"/>
+      <stop offset="1" stop-color="#1E293B"/>
+    </linearGradient>
+    <radialGradient id="gc-well" cx="0.5" cy="0.4" r="0.6">
+      <stop offset="0.7" stop-color="#E2E8F0"/>
+      <stop offset="1" stop-color="#CBD5E1"/>
+    </radialGradient>
+    <radialGradient id="gc-stick" cx="0.35" cy="0.3" r="0.8">
+      <stop offset="0" stop-color="#64748B"/>
+      <stop offset="1" stop-color="#1E293B"/>
+    </radialGradient>
+    <linearGradient id="gc-dish" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1E293B"/>
+      <stop offset="1" stop-color="#475569"/>
+    </linearGradient>
+    <radialGradient id="gc-gloss" cx="0.35" cy="0.3" r="0.6">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="300" cy="476" rx="200" ry="12" fill="#0F172A" opacity="0.13" filter="url(#gc-blur)"/>
+  <!-- shoulder bumpers -->
+  <path d="M122 206 C140 176 186 168 218 178" fill="none" stroke="url(#gc-slate)" stroke-width="18" stroke-linecap="round"/>
+  <path d="M478 206 C460 176 414 168 382 178" fill="none" stroke="url(#gc-slate)" stroke-width="18" stroke-linecap="round"/>
+  <!-- body -->
+  <path d="M300 196 C330 196 354 186 386 182 C432 176 472 186 488 216 C506 250 518 334 512 394 C508 434 490 458 464 458 C442 458 428 446 418 426 C408 406 398 386 384 374 C362 362 334 358 300 358 C266 358 238 362 216 374 C202 386 192 406 182 426 C172 446 158 458 136 458 C110 458 92 434 88 394 C82 334 94 250 112 216 C128 186 168 176 214 182 C246 186 270 196 300 196 Z" fill="url(#gc-body)"/>
+  <path d="M300 196 C330 196 354 186 386 182 C432 176 472 186 488 216 C506 250 518 334 512 394 C508 434 490 458 464 458 C442 458 428 446 418 426 C408 406 398 386 384 374 C362 362 334 358 300 358 C266 358 238 362 216 374 C202 386 192 406 182 426 C172 446 158 458 136 458 C110 458 92 434 88 394 C82 334 94 250 112 216 C128 186 168 176 214 182 C246 186 270 196 300 196 Z" fill="url(#gc-shade)" stroke="#94A3B8" stroke-width="1.5" stroke-opacity="0.6"/>
+  <path d="M126 206 C150 186 190 184 220 190 C250 196 270 204 300 204 C330 204 350 196 380 190 C410 184 450 186 474 206" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+  <!-- D-pad -->
+  <circle cx="180" cy="252" r="41" fill="url(#gc-well)"/>
+  <rect x="148" y="241" width="64" height="22" rx="5" fill="url(#gc-slate)"/>
+  <rect x="169" y="220" width="22" height="64" rx="5" fill="url(#gc-slate)"/>
+  <g fill="#94A3B8">
+    <path d="M180 225 L185 232 L175 232 Z"/>
+    <path d="M180 279 L185 272 L175 272 Z"/>
+    <path d="M153 252 L160 247 L160 257 Z"/>
+    <path d="M207 252 L200 247 L200 257 Z"/>
+  </g>
+  <circle cx="180" cy="252" r="5" fill="#1E293B"/>
+  <!-- face buttons -->
+  <circle cx="420" cy="252" r="49" fill="url(#gc-well)"/>
+  <g>
+    <circle cx="420" cy="226" r="14" fill="#B45309"/>
+    <circle cx="420" cy="224" r="14" fill="#F59E0B"/>
+    <circle cx="446" cy="254" r="14" fill="#BE123C"/>
+    <circle cx="446" cy="252" r="14" fill="#F43F5E"/>
+    <circle cx="420" cy="282" r="14" fill="#047857"/>
+    <circle cx="420" cy="280" r="14" fill="#10B981"/>
+    <circle cx="394" cy="254" r="14" fill="#1D4ED8"/>
+    <circle cx="394" cy="252" r="14" fill="#3B82F6"/>
+    <circle cx="420" cy="224" r="14" fill="url(#gc-gloss)"/>
+    <circle cx="446" cy="252" r="14" fill="url(#gc-gloss)"/>
+    <circle cx="420" cy="280" r="14" fill="url(#gc-gloss)"/>
+    <circle cx="394" cy="252" r="14" fill="url(#gc-gloss)"/>
+  </g>
+  <!-- center buttons -->
+  <rect x="258" y="232" width="20" height="8" rx="4" fill="#475569"/>
+  <rect x="322" y="232" width="20" height="8" rx="4" fill="#475569"/>
+  <circle cx="300" cy="272" r="15" fill="#E2E8F0"/>
+  <circle cx="300" cy="272" r="11" fill="url(#gc-slate)"/>
+  <circle cx="300" cy="272" r="11" fill="none" stroke="#3B82F6" stroke-width="2"/>
+  <!-- thumbsticks -->
+  <circle cx="240" cy="318" r="36" fill="url(#gc-well)"/>
+  <circle cx="240" cy="318" r="30" fill="#1E293B"/>
+  <circle cx="240" cy="316" r="26" fill="url(#gc-stick)"/>
+  <circle cx="240" cy="316" r="18" fill="url(#gc-dish)"/>
+  <path d="M222 306 C226 296 234 292 242 291" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" opacity="0.3"/>
+  <circle cx="360" cy="318" r="36" fill="url(#gc-well)"/>
+  <circle cx="360" cy="318" r="30" fill="#1E293B"/>
+  <circle cx="360" cy="316" r="26" fill="url(#gc-stick)"/>
+  <circle cx="360" cy="316" r="18" fill="url(#gc-dish)"/>
+  <path d="M342 306 C346 296 354 292 362 291" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" opacity="0.3"/>
+</svg>

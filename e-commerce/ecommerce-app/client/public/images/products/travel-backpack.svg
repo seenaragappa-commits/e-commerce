@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600" role="img" aria-label="Navy travel backpack with top handle, slate front zip pocket, side pockets and amber zipper pulls">
+  <title>Travel Backpack</title>
+  <defs>
+    <filter id="bp-blur" x="-50%" y="-300%" width="200%" height="700%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <linearGradient id="bp-body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#27449A"/>
+      <stop offset="0.45" stop-color="#1E3A8A"/>
+      <stop offset="1" stop-color="#172554"/>
+    </linearGradient>
+    <linearGradient id="bp-pocket" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#475569"/>
+      <stop offset="1" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="bp-strap" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#334155"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="bp-pull" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FCD34D"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <pattern id="bp-mesh" width="5" height="5" patternUnits="userSpaceOnUse">
+      <path d="M0 0 L5 5 M5 0 L0 5" stroke="#0F172A" stroke-width="0.8" opacity="0.45"/>
+    </pattern>
+  </defs>
+  <ellipse cx="300" cy="494" rx="160" ry="12" fill="#0F172A" opacity="0.15" filter="url(#bp-blur)"/>
+  <!-- shoulder straps (behind) -->
+  <path d="M206 146 C160 170 140 240 142 320 C144 380 152 420 166 450" fill="none" stroke="url(#bp-strap)" stroke-width="26" stroke-linecap="round"/>
+  <path d="M394 146 C440 170 460 240 458 320 C456 380 448 420 434 450" fill="none" stroke="url(#bp-strap)" stroke-width="26" stroke-linecap="round"/>
+  <path d="M138 250 C134 280 134 310 136 336" fill="none" stroke="#64748B" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  <!-- top handle -->
+  <path d="M272 122 C272 98 284 88 300 88 C316 88 328 98 328 122" fill="none" stroke="#1E293B" stroke-width="11" stroke-linecap="round"/>
+  <path d="M278 104 C282 96 290 93 298 93" fill="none" stroke="#64748B" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  <!-- side pockets -->
+  <path d="M180 350 C162 352 150 364 148 386 L146 446 C146 466 158 476 180 476 Z" fill="#334155"/>
+  <path d="M180 350 C162 352 150 364 148 386 L146 446 C146 466 158 476 180 476 Z" fill="url(#bp-mesh)"/>
+  <path d="M180 352 C166 354 156 360 151 372" fill="none" stroke="#64748B" stroke-width="5" stroke-linecap="round"/>
+  <path d="M420 350 C438 352 450 364 452 386 L454 446 C454 466 442 476 420 476 Z" fill="#334155"/>
+  <path d="M420 350 C438 352 450 364 452 386 L454 446 C454 466 442 476 420 476 Z" fill="url(#bp-mesh)"/>
+  <path d="M420 352 C434 354 444 360 449 372" fill="none" stroke="#64748B" stroke-width="5" stroke-linecap="round"/>
+  <!-- body -->
+  <path d="M170 256 C170 168 226 112 300 112 C374 112 430 168 430 256 L430 444 C430 466 414 482 392 482 L208 482 C186 482 170 466 170 444 Z" fill="url(#bp-body)"/>
+  <path d="M170 456 L430 456 C430 470 414 482 392 482 L208 482 C186 482 170 470 170 456 Z" fill="#0F172A" opacity="0.55"/>
+  <path d="M194 206 C202 168 234 138 274 128" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" opacity="0.16"/>
+  <!-- main zipper -->
+  <path d="M188 262 C188 184 238 132 300 132 C362 132 412 184 412 262" fill="none" stroke="#0F172A" stroke-width="6" stroke-linecap="round"/>
+  <path d="M188 262 C188 184 238 132 300 132 C362 132 412 184 412 262" fill="none" stroke="#64748B" stroke-width="3" stroke-dasharray="1.6 2.6"/>
+  <path d="M180 266 C180 178 232 122 300 122 C368 122 420 178 420 266" fill="none" stroke="#93C5FD" stroke-width="1.2" stroke-dasharray="4 4" opacity="0.35"/>
+  <!-- zipper pulls (top) -->
+  <rect x="255" y="133" width="14" height="9" rx="3" fill="#475569" transform="rotate(-14 262 137)"/>
+  <rect x="257" y="140" width="10" height="28" rx="5" fill="url(#bp-pull)"/>
+  <rect x="260" y="158" width="4" height="6" rx="2" fill="#B45309"/>
+  <rect x="331" y="133" width="14" height="9" rx="3" fill="#475569" transform="rotate(14 338 137)"/>
+  <rect x="333" y="140" width="10" height="28" rx="5" fill="url(#bp-pull)"/>
+  <rect x="336" y="158" width="4" height="6" rx="2" fill="#B45309"/>
+  <!-- front pocket -->
+  <rect x="196" y="296" width="208" height="150" rx="30" fill="url(#bp-pocket)"/>
+  <rect x="203" y="303" width="194" height="136" rx="24" fill="none" stroke="#94A3B8" stroke-width="1.3" stroke-dasharray="4 4" opacity="0.5"/>
+  <path d="M218 322 L382 322" stroke="#0F172A" stroke-width="6" stroke-linecap="round"/>
+  <path d="M218 322 L382 322" stroke="#64748B" stroke-width="3" stroke-dasharray="1.6 2.6"/>
+  <rect x="362" y="317" width="14" height="10" rx="3" fill="#475569"/>
+  <rect x="364" y="324" width="10" height="28" rx="5" fill="url(#bp-pull)"/>
+  <rect x="367" y="342" width="4" height="6" rx="2" fill="#B45309"/>
+  <rect x="280" y="372" width="40" height="14" rx="4" fill="#F59E0B"/>
+  <rect x="284" y="376" width="32" height="6" rx="2" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.6"/>
+  <path d="M212 318 C214 308 222 302 232 301" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" opacity="0.18"/>
+</svg>
